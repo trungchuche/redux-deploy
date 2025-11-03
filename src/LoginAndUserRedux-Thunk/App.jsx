@@ -6,7 +6,7 @@ import store from "../redux-thunk/store";
 export default function App() {
     return (
         <Provider store={store}>
-            <BrowserRouter>
+            <BrowserRouter basename="redux-deploy">
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="/users" element={<User />} />
