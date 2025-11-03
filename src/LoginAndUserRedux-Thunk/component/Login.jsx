@@ -52,6 +52,7 @@ export default function Login() {
                 </div>
                 <div>
                     Sử dụng: admin / 123
+                    sử dụng sướng lắm
                 </div>
             </div>
         </div>
